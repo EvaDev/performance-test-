@@ -1,0 +1,12 @@
+
+[sncast.madara_account1]
+account = "madara_account1"
+accounts-file = "/Users/seanevans/.starknet_accounts/starknet_open_zeppelin_accounts.json"
+url = "http://localhost:9944"
+
+[sncast.katana_account1]
+account = "katana_account1"
+accounts-file = "/Users/seanevans/.starknet_accounts/starknet_open_zeppelin_accounts.json"
+url = "http://localhost:5050"
+chain-id = "0x4b4154414e41"  # Katana's chain ID
+udc-address = "0x41a78e741e5af2fec34b695679bc6891742439f7afb8484ecd7766661ad02bf"  # Katana UDC

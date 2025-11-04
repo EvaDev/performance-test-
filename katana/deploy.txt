@@ -1,0 +1,71 @@
+This account owns all contracts 0x0764a2fe39643b6ef291883d14676ebc09f3f27fbea24fbf49cfa7976f97bc4c
+export STARKNET_KEYSTORE=/Users/seanevans/Documents/ssp/cairo/accounts/nft_owner.json
+export STARKNET_ACCOUNT=/Users/seanevans/Documents/ssp/cairo/accounts/nft_owner-account.json
+password = bbb
+Pub=0x57673063997d05d95f8c6e67950730f05b1f59875cb4c89581825a943016d7e
+Pvt=0x04eb9093c6bc934e99dbdf1f2258e7d101da3c8503ef38e55f40964e15b155a8
+
+#ACTOR
+starkli declare \
+  target/dev/performancetest_performanceTest.contract_class.json \
+  --network=sepolia \
+  --l1-gas 200000
+
+starkli deploy \
+    0x0503b7bc42b7ce754c70f730cc9ed6d0846b62ae7ab9d1c87adf743cae2e9253 \
+    --account=/Users/seanevans/Documents/ssp/cairo/accounts/nft_owner-account.json \
+    --l1-gas 10000 \
+    --rpc=https://starknet-sepolia.public.blastapi.io/rpc/v0_8 
+
+Perf Test deployed to 0x5b15ce020157c212f79d9ad5f05aa741cbcae763b6d4acc18c6832cb204ddbd
+
+starkli call 0x5b15ce020157c212f79d9ad5f05aa741cbcae763b6d4acc18c6832cb204ddbd \
+  get_balance \
+  0x7d101d7e45f0bda48db725965be0b23db4cd4f78db2304bbe9d011f5128736c \
+  --rpc http://localhost:9944
+
+starkli call 0x5b15ce020157c212f79d9ad5f05aa741cbcae763b6d4acc18c6832cb204ddbd update_balance 0x7d101d7e45f0bda48db725965be0b23db4cd4f78db2304bbe9d011f5128736c 12
+
+
+
+jq '.abi' target/dev/performancetest_performanceTest.contract_class.json > ../pt/ABI/performancetestABI.json
+
+const provider1 = new Provider({ rpc: process.env.NODE_URL || 'https://starknet-sepolia.infura.io/v3/738a3e1e3f934295b1e4c3034dcbedf9' });
+const provider2 = new Provider({ rpc: process.env.NODE_URL || 'https://starknet-sepolia.infura.io/v3/7fc1711d363e4e1d91032e6d4d76f159' });
+const provider3 = new Provider({ rpc: process.env.NODE_URL || 'https://starknet-sepolia.infura.io/v3/caa743a3d0ee4d879194c75dab9c1a35' });
+const provider4 = new Provider({ rpc: process.env.NODE_URL || 'https://starknet-sepolia.infura.io/v3/4760d79dc0c24dee8a5768087db96689' });
+const provider5 = new Provider({ rpc: process.env.NODE_URL || 'https://starknet-sepolia.infura.io/v3/eaa346e675484d7889e3b849fdba7976' });
+
+Node 
+from starknet-test-js folder run 
+node performanceTest.js 1000 1 0.2
+
+node performanceTest.js 10 1 0.2 rwr 25
+
+node performanceTest.js 1000 1 0.2 rwr 10
+
+1000 transactions
+1 transaction per batch
+20% read operations
+
+~~~~~~~~~~~~
+python3 -m venv venv
+
+source venv/bin/activate
+
+streamlit run performanceTest.py
+
+python3 listbalance.py 
+
+deactivate
+
+~~~~~~~~~~~~~~~
+curl -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"starknet_getClassAt","params":["0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d", "latest"],"id":1}' https://starknet-sepolia.public.blastapi.io/rpc/v0_9
+
+~~~~~~~~~~
+Madara
+
+
+cargo run --release -- setup --from-local ./configs/ --chain=dev --base-path=/Users/seanevans/Documents/ssp/Madara
+
+cargo run --release -- setup --from-local ./configs/ --bin=bootstrapper --chain=dev --base-path=/Users/seanevans/Documents/ssp/Madara

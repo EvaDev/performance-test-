@@ -1,0 +1,17 @@
+# Katana configuration for performance testing
+# This file increases connection limits to allow more parallel transactions
+
+[server]
+# Increase maximum concurrent connections to handle more parallel requests
+max_connections = 500
+
+# Optional: Increase request timeout for high-load scenarios
+# request_timeout = 30000  # 30 seconds
+
+# Optional: Increase keep-alive timeout
+# keep_alive = 60
+
+# Note: For maximum performance, also reduce block time when starting Katana:
+# katana --dev --dev.no-fee --dev.accounts 500 --dev.seed 0 --block-time 10 --config katana.toml
+# Lower block time (e.g., 10ms) allows faster block creation and higher throughput
+
