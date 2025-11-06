@@ -1,0 +1,1007 @@
+{
+  "timestamp": "20251106_061557",
+  "total_operations": 100,
+  "contract_address": "0x063ab038c9d25515aa8e873febae8eb5b1d4be5fba1a217958064fac441b619e",
+  "results": [
+    {
+      "op_id": 0,
+      "account_address": "0x7d101d7e45f0bda48db725965be0b23db4cd4f78db2304bbe9d011f5128736c",
+      "expected_balance": 43071048988127458395975716991876880829436998362757169178428377717658647792121,
+      "initial_balance": 94967138971607964992123794140040641097979935449842711924922843156325630916128,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x405d6e104ab054970ddb9f5c83f5cbe09d4c5893de1dc15bc9d7d5d9f49800b",
+      "balance_match": false
+    },
+    {
+      "op_id": 1,
+      "account_address": "0x20f25eb8d0b01b6ddc053d026b40788a2054a08a701421ce6206e713d4eb651",
+      "expected_balance": 72861096828232389131964633824630070419734262438015064179238748035674433792946,
+      "initial_balance": 16784721536698280932888923492195679559344411019961638711620168438067985438844,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x7012f2eb11f5538958ca08dd562ec40d5100d315b28ed6338a3fe1fe5812612",
+      "balance_match": false
+    },
+    {
+      "op_id": 2,
+      "account_address": "0x5da803365f33a4b9b03cd10ccffe248fee73f9e43736de80f5b0848c1bde03e",
+      "expected_balance": 25921351352668759819020487008997314797405728454245453555321985065319436561980,
+      "initial_balance": 25921351352668759819020487008997314797405728454245453555321985065319436561980,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x37ac61a0739ff3361a728739b033767ceab48355f404a0931a8c0685545af0",
+      "balance_match": false
+    },
+    {
+      "op_id": 3,
+      "account_address": "0x8681d1018378cd6817705b2685381564751d41cfb4585d013bfdb3d5899027",
+      "expected_balance": 19204442211893086990076647298886960708313586539178603591093264850041298284911,
+      "initial_balance": 19204442211893086990076647298886960708313586539178603591093264850041298284911,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 4,
+      "account_address": "0x17abcbac5bb9499cec5dcc19b3f3c14501892f7980deb34a81f7a24791d7fc",
+      "expected_balance": 85751445467571770069385882026320198944813245981527273744952659632829775208382,
+      "initial_balance": 85751445467571770069385882026320198944813245981527273744952659632829775208382,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 5,
+      "account_address": "0x43f03aae2374d3559c1cd8082b8cc62f0a13579f2975a6fbdcc2a2d3675e733",
+      "expected_balance": 113851010115416512295738315335017341961427992017740376000077776468620302850985,
+      "initial_balance": 16467109412941283088040108260623715340398187112864660553106888103963525796577,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x4e73c34fffcab199d5c955a72e4ebc405249532429ab19ef4d9223fca86646c",
+      "balance_match": false
+    },
+    {
+      "op_id": 6,
+      "account_address": "0x42b14e849d397ddd17eb25a5a8d96077ba47f4a187549be3a5e2c506b1606",
+      "expected_balance": 99820199983755871358204000270660494606785240393977901374951777673382637442279,
+      "initial_balance": 4980115511414067232366904281369496409117290806157616876381177470674739004626,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x5f55567b6888e42845a0dc8980c682e93156a20da0cc8ad63b389add722f218",
+      "balance_match": false
+    },
+    {
+      "op_id": 7,
+      "account_address": "0x3d41615322442eecd071a6ad3ff4a8f31d4d5a776cdb7db3d2c7a1f8f7f3c71",
+      "expected_balance": 41356256407384163273088520089559195060537986985826189135986569357072981589718,
+      "initial_balance": 41356256407384163273088520089559195060537986985826189135986569357072981589718,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x4b6208ab23787e49f66924acd82500c57e08d1bce86814bd69e06de99321c0",
+      "balance_match": false
+    },
+    {
+      "op_id": 8,
+      "account_address": "0x6acdfcf6ac5a36d312dbfbbfad8367a38624e1ed03374071d7c8fec6843dc59",
+      "expected_balance": 10003986904950538761173939824858408749503261850798216631365112498407873494207,
+      "initial_balance": 56045554606284343031519891056530926469468040080243170557597954145893356080205,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x23a5faf5ce67702823d8f1a26196ff03f7c568895ea20784c043444ac781002",
+      "balance_match": false
+    },
+    {
+      "op_id": 9,
+      "account_address": "0x664917b008788fa6a611d700883052a39140986c49d447b69d3218c7297664a",
+      "expected_balance": 35433387562845882811286530126250994358333961466321024546934242245074332327222,
+      "initial_balance": 18045157934055733373108689205116937912500884044544023912915392371092925579256,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 10,
+      "account_address": "0x599ce0fa16961f551641e4725deace6c70de3c2ee8a63836b2d6cda580316a5",
+      "expected_balance": 16501461288851112733739602987428779346273662683502116860592509680668912385600,
+      "initial_balance": 16501461288851112733739602987428779346273662683502116860592509680668912385600,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x442b04d8c3584312dbcb56a7173df114c709164d97bdb7eabd8c04db4b53542",
+      "balance_match": false
+    },
+    {
+      "op_id": 11,
+      "account_address": "0x13ff0e56ad4cd0398db3b73af97adbf6ac4bbff1fbd851d013693a7c06e5059",
+      "expected_balance": 103194826810802515943759736485289789825278247197295265909586154998923903963294,
+      "initial_balance": 103194826810802515943759736485289789825278247197295265909586154998923903963294,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x48160e66091a86a3aecd1284b94763fbac01dac064701b54d54cb4060f759b7",
+      "balance_match": false
+    },
+    {
+      "op_id": 12,
+      "account_address": "0x3b87d2564a73fe7c0dc6887206fce9282dae3a1d3ec6f6dd6883da5bef6ad98",
+      "expected_balance": 2699765767551921430510288619861163804770037595455057922657523605219248009725,
+      "initial_balance": 53110818466063198171142748743160088291105776735239054586497891608739616297358,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x6d2a686315afb207bf5eafd0b8791c42de39de1bcece0cf27fd4715f073caeb",
+      "balance_match": false
+    },
+    {
+      "op_id": 13,
+      "account_address": "0x212147c3c19d987be46374d4b4d3d1989d809b49928b8d9f3660b89fa41e4a8",
+      "expected_balance": 35173010649631775574463030986151921888773730871056202808737334497993757700874,
+      "initial_balance": 35173010649631775574463030986151921888773730871056202808737334497993757700874,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x4f743b50be3e35e5193ff352a9b9bb1e052a4e59de753e809284f0be1c7d9d7",
+      "balance_match": false
+    },
+    {
+      "op_id": 14,
+      "account_address": "0x2d1d1752006a09db2fe39378409474333ae05221982035cf1f669274dee1ab7",
+      "expected_balance": 46181205507865741902183555972670118636134812074011413098314984886881936287430,
+      "initial_balance": 34785284968187503186165310559085007365169885413796653390614410305363615352553,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 15,
+      "account_address": "0x1b31e4d33a14024ccf94395165a9757c65d2fbe4603d740f6e9b55c02086d0b",
+      "expected_balance": 5498223164524761804050565794011581113645083863550914646118831215894371048413,
+      "initial_balance": 106007064640855061181651527908718716493956964494153499676343429549012917139518,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 16,
+      "account_address": "0x37599064e8a740ec808c3f1c2b9ae6a3557b8f08280dfba5020e477ef95efc2",
+      "expected_balance": 70216668163649126353664508515386386446090660407470158144638902331769313313626,
+      "initial_balance": 21001164293131797108783216695005231943848749056025096932858324902247106121654,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 17,
+      "account_address": "0xf37634bae7a81131b332d78f2e7715cc1ec9b7de11a47b4c500bb3a256ab5c",
+      "expected_balance": 4937015993587416857259256189686257286879368558772128770323488132137433090691,
+      "initial_balance": 4937015993587416857259256189686257286879368558772128770323488132137433090691,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 18,
+      "account_address": "0x2a75f1caabc5ede95efdb975fc03afefb080e82849bc62c9a6b5b0913a20af8",
+      "expected_balance": 44857340985343041234480382860634267171249115876337012135616098472749806968084,
+      "initial_balance": 44857340985343041234480382860634267171249115876337012135616098472749806968084,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x2fe0254796aa5d63999d59dfdb13dd3b210dbaca3cfb4bc2de3e89a60290d3d",
+      "balance_match": false
+    },
+    {
+      "op_id": 19,
+      "account_address": "0x6ed670266eb6474a9a152beeb83fb8be47154fff73469a0d283b1a20317051b",
+      "expected_balance": 63829548272723157070009878317180688727733084573577680190923146855219743749347,
+      "initial_balance": 63829548272723157070009878317180688727733084573577680190923146855219743749347,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x5d1cf464636e80c6a2acd0ee9bd5a148f17e7cd5fe8c71c5c6d8fe87bd27715",
+      "balance_match": false
+    },
+    {
+      "op_id": 20,
+      "account_address": "0x1f4a6c2ce084eb0ea3f1460c32f97610eb7503a719c9b73d1fe5af44682d3fe",
+      "expected_balance": 94423288668095038031209604657503486307858106709680113336487360997816148548526,
+      "initial_balance": 92234948865793433209092714713242180736706239257336083107101248382969004945516,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 21,
+      "account_address": "0x26584a6c59d274032f794a0d1ebfc1b1d95a3ecf05a3c0db603d6e87778a8f4",
+      "expected_balance": 52709819605218235344082684284990995503689304096343260304542797178457749956246,
+      "initial_balance": 52709819605218235344082684284990995503689304096343260304542797178457749956246,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 22,
+      "account_address": "0x4b769193f7b40b743cfd2c8fd1082c0e8523819fa5acf04809b1afbbf124fb3",
+      "expected_balance": 82625073371922827655798820976486134826378888664054683871881261591694458404874,
+      "initial_balance": 11,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 23,
+      "account_address": "0xca572b7db9ee758fd1e6bb196d848a0f23edb2f1c508d3ebfb7ff2990413b8",
+      "expected_balance": 88026000715772182482680769304575167639008750294912283502978321181372132821619,
+      "initial_balance": 88026000715772182482680769304575167639008750294912283502978321181372132821619,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x2ffe4e935ca95165b7ff148f87725f8776cc366521ae967343875beaf97e039",
+      "balance_match": false
+    },
+    {
+      "op_id": 24,
+      "account_address": "0x125eb16ab21f144b7e6b21c869e8aa3bf05642cea34162624d8f6fe55432365",
+      "expected_balance": 108368030541338049293076093882027554366896909719713323423832250842199127816872,
+      "initial_balance": 109602980063157073583287498758474265644007127123978558057102583741284535929735,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x3b9e5a14e4cff2c6aab86a633b9cc60cc4158a921b90478578a9739be2012e5",
+      "balance_match": false
+    },
+    {
+      "op_id": 25,
+      "account_address": "0x26a84d93bfb572200da210da9ad1c2e9529eacc9af5e8f13eb7532aaebdd406",
+      "expected_balance": 83855274694846686280273689862834481138761319716170116888904880032799310912834,
+      "initial_balance": 83855274694846686280273689862834481138761319716170116888904880032799310912834,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x3c5a201408cd37923eff3ce3fa876b60fd706410ad1673fb40f1b08f72739b3",
+      "balance_match": false
+    },
+    {
+      "op_id": 26,
+      "account_address": "0x62f5b65fdf1baa50bfbd42b9c82a9c85cd9ee5f12e7bae8a328d2f78291780b",
+      "expected_balance": 11037360478308436704290219567950671571854849975345456089567960080909815385370,
+      "initial_balance": 16053999216278240822107580677843346522643952318105504915824028187750987103904,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 27,
+      "account_address": "0x57da07f018259be91e84136282c73b15dec5d579516344fc10fe80340607b9b",
+      "expected_balance": 6032718919809948816291257769868256704959379015059358345279836027957337368062,
+      "initial_balance": 6032718919809948816291257769868256704959379015059358345279836027957337368062,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x71da3d9b399883888b027c52b974e8218a5ea45acb0c16e95d90effe8e85737",
+      "balance_match": false
+    },
+    {
+      "op_id": 28,
+      "account_address": "0x192fba2074f5878ea60d3c92f31df3c7c04155b4723321baddc1d2b221764bb",
+      "expected_balance": 77863224755087752320404042374340503064916860549792655236500840691218358306501,
+      "initial_balance": 77863224755087752320404042374340503064916860549792655236500840691218358306501,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0xb33d252b2873dcb66426ba854e9f3cbaa85ecebb4110f8fafd4c9c8c0ce971",
+      "balance_match": false
+    },
+    {
+      "op_id": 29,
+      "account_address": "0x5085bda6c066a5fbd31d51e5d3ae7c41166b5c1b72f266ee5fef5f48632a752",
+      "expected_balance": 78340960547928583644714230250269875016170659185794100638301469747549342927666,
+      "initial_balance": 78340960547928583644714230250269875016170659185794100638301469747549342927666,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x276bdde4b483fab18896312c55ef13904bdfbd723d66a5a9586804a091a0a1a",
+      "balance_match": false
+    },
+    {
+      "op_id": 30,
+      "account_address": "0x48b440109e35f0039530b622be3832bf03ea9d569141f135b3b64ad28a29faa",
+      "expected_balance": 15936236421732883018476511797229167451976550929709599833503397432469920047742,
+      "initial_balance": 15936236421732883018476511797229167451976550929709599833503397432469920047742,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x72fc59de55eb874f55ec423e8d6d00d9cedcabd7e35283263963820532b71b7",
+      "balance_match": false
+    },
+    {
+      "op_id": 31,
+      "account_address": "0x6ecbd00269d7c081fbb87194e00e962dc8c218bfc60157231fb4b7b91d96246",
+      "expected_balance": 63656307220343877218503829883753709930495403122951525545989833567628978890202,
+      "initial_balance": 29138408531411431012148853275650260433389429648272068766445607729859909159806,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x2caf36c72f17c988f52db161cf044bb63836b419467af58616521317384b175",
+      "balance_match": false
+    },
+    {
+      "op_id": 32,
+      "account_address": "0x3003b3cceb58e4fb3854cd643b1db9fda0f8b7c2528336049e41a511e1178",
+      "expected_balance": 78072352773290323648128084133759073382915419574348784308979206859018684707772,
+      "initial_balance": 87685766749807716448478450222908642456375385933027985967214638284739403742053,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 33,
+      "account_address": "0x6e7fd87815667fe3d84a3004a7027fa946641149698633462b4489cfaeb8732",
+      "expected_balance": 1310967427585457450147011047927107698012127133330234127543652835007975736155,
+      "initial_balance": 99843702654877612839543673932122993718851409197327358706008331599466069495760,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 34,
+      "account_address": "0x314928078ca87130496f9a3e77518f466931d68e9c56c9844584c61d628e9",
+      "expected_balance": 90828822548451555572421906009328162817743461833717991012418225433135804769669,
+      "initial_balance": 2167360079707013809243377198090852402717323997613419255631201668133913845438,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x46ab491de537d2ea3866f0813e3d80a9de9f115860349df7498181243855121",
+      "balance_match": false
+    },
+    {
+      "op_id": 35,
+      "account_address": "0x30aa35f76de9fff2310b0378ddb113ba2ff932ec9bc707c6fd9793e31a1ec49",
+      "expected_balance": 42573141958119112785296687483405456993089151613748683592147103561018540582363,
+      "initial_balance": 9880452414427927121481071993701639891969205487434852535079516389984870131063,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x62aaa489750706cf1daac2b0cbda859034011f5f1080541076a23808cb91a0",
+      "balance_match": false
+    },
+    {
+      "op_id": 36,
+      "account_address": "0xe0e1e89c2f82b19dcb3002515c5475c587c00a4e008fb4559b1f9b6badf256",
+      "expected_balance": 28739942035815219654723762981039965461808422789110972663873629446839577101198,
+      "initial_balance": 89663080144991695260221396421814931287118556645209939514445994659406269821207,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 37,
+      "account_address": "0x744089cde7c37cad03514d8141d37c8f9f52acd5ea98a1e15710ca9e4baf90f",
+      "expected_balance": 5117399166235267729411544793030547818397490968395550822280178507093361272692,
+      "initial_balance": 5117399166235267729411544793030547818397490968395550822280178507093361272692,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x786cb274012babe25fc833a090c60af248ad691411ec823ec9fe4b7a39c2382",
+      "balance_match": false
+    },
+    {
+      "op_id": 38,
+      "account_address": "0x37fb3a11ba173136c38c584dd5c11cf250c1492a968f066985f87fb780d9819",
+      "expected_balance": 68518267739640960049955924374496431942110227571963817833210630904840085357377,
+      "initial_balance": 21732293667805909151169944615250991920413200097928066194709430620589527582445,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 39,
+      "account_address": "0x413ee0e2969721247117bdb402db99b6ebc528281f093548bc2d4772c23d",
+      "expected_balance": 109928285192733699020565184462832378982944671172254960122007135762967407376947,
+      "initial_balance": 109928285192733699020565184462832378982944671172254960122007135762967407376947,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x4a64ba5df41582f640fab72948eaa52ce0d026e73daefcc47ff6c3bea6a42fd",
+      "balance_match": false
+    },
+    {
+      "op_id": 40,
+      "account_address": "0x6991c0640e6146306e6fdef53add7007041aed7bb4b5cbbd076e7fce3284a8b",
+      "expected_balance": 22760132390127336410114514993331590525084457533818321197961266305791707770713,
+      "initial_balance": 22760132390127336410114514993331590525084457533818321197961266305791707770713,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x1c9451e3c4c5823d47a0682700f8acd15270718a2f92e7c52b9658cd308eeca",
+      "balance_match": false
+    },
+    {
+      "op_id": 41,
+      "account_address": "0x4ac39bba1fd6f54cee82c71f20f20932064341e7ab81a98003cf94dcf5069ae",
+      "expected_balance": 85375189125935310897992721161957472368786003273190326239792186579994575757974,
+      "initial_balance": 49742687529726734117938047535350950772941101902056416007484019042528562635943,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 42,
+      "account_address": "0x64800aa4ec3165f939e1c4bf6f3e4398543fc71bf61f13cc27e461cf608ec07",
+      "expected_balance": 82336142846552906955224285228038878265374905320830865208448734156077257386013,
+      "initial_balance": 82336142846552906955224285228038878265374905320830865208448734156077257386013,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x58813cd6877e5ca86feaa0e32e8e3d38e47b2af1e999c4d2ab19f278fabf06b",
+      "balance_match": false
+    },
+    {
+      "op_id": 43,
+      "account_address": "0x3f4469f20ad38ee75cf328e895e3ab7a7d5aeb8bc340f9eb244034a8c1712c1",
+      "expected_balance": 89126164589847615123074879130607696588395042678642292433848899892041691379316,
+      "initial_balance": 92230421428286638980614708073897286185207848566838238247833012569297040312134,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 44,
+      "account_address": "0x34ce857c4df544d63f280bcd8d00ec904aabe82e5f5bce29a770c27a9952d71",
+      "expected_balance": 48439718535927036131298322539145606852779155820888463226833584315366660129486,
+      "initial_balance": 48439718535927036131298322539145606852779155820888463226833584315366660129486,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 45,
+      "account_address": "0x2bba45787542db4891dae0901b821a4af190863c4e0a6a3a984226f16333874",
+      "expected_balance": 28070771749504710965814579846452032663930875675624200832173814050279105738120,
+      "initial_balance": 28070771749504710965814579846452032663930875675624200832173814050279105738120,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x449ed87e5ca1c861d2aed378ec1a66f28e30906cc83ec0573615067114967b0",
+      "balance_match": false
+    },
+    {
+      "op_id": 46,
+      "account_address": "0x4c89155f5be07995149627aa95f64be8cf062e6add3ba31df33a084fb21dc83",
+      "expected_balance": 35460953173162370418664487179987871919097643998607439052848425350000147954833,
+      "initial_balance": 35460953173162370418664487179987871919097643998607439052848425350000147954833,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 47,
+      "account_address": "0x349d53b8dd4391d9a07de5a3ac14afc2a1339fb76ed6925e924cd36041a8d0",
+      "expected_balance": 14360529113866929805675529384140808355720980433304066731835652467243657946174,
+      "initial_balance": 14360529113866929805675529384140808355720980433304066731835652467243657946174,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 48,
+      "account_address": "0x2827ddf455ebfd65c5b57eca95ed63496f0258c6161d1414cd7ac4d2a3c13e0",
+      "expected_balance": 54972987510779166729463979836287597521654103421729779312062125478485556782378,
+      "initial_balance": 54972987510779166729463979836287597521654103421729779312062125478485556782378,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 49,
+      "account_address": "0x558329e7e6ef2aa37ae54f3a6494c1aa979ad2dd8b80381ca7e742d90fec4eb",
+      "expected_balance": 29463303541853169975028328310811434034191227627749164674203871018092531462155,
+      "initial_balance": 0,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 50,
+      "account_address": "0x7d101d7e45f0bda48db725965be0b23db4cd4f78db2304bbe9d011f5128736c",
+      "expected_balance": 94967138971607964992123794140040641097979935449842711924922843156325630916128,
+      "initial_balance": 94967138971607964992123794140040641097979935449842711924922843156325630916128,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x6a561b5e40aa92f50a8ab67b71177744844e9d5d041270b9cf6462e4fc266ea",
+      "balance_match": false
+    },
+    {
+      "op_id": 51,
+      "account_address": "0x20f25eb8d0b01b6ddc053d026b40788a2054a08a701421ce6206e713d4eb651",
+      "expected_balance": 16784721536698280932888923492195679559344411019961638711620168438067985438844,
+      "initial_balance": 16784721536698280932888923492195679559344411019961638711620168438067985438844,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x6ecdcb0a9e3d9e1accec4de1140d7fbfe465c114ce2b91447c6acd778136fb6",
+      "balance_match": false
+    },
+    {
+      "op_id": 52,
+      "account_address": "0x5da803365f33a4b9b03cd10ccffe248fee73f9e43736de80f5b0848c1bde03e",
+      "expected_balance": 53267341951969608228923246497873038607456238273582487341256820556524842965135,
+      "initial_balance": 25921351352668759819020487008997314797405728454245453555321985065319436561980,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x6cadb7510762b1ee308340edf32425a8f925126d87c6644789d259ac3ebea9b",
+      "balance_match": false
+    },
+    {
+      "op_id": 53,
+      "account_address": "0x8681d1018378cd6817705b2685381564751d41cfb4585d013bfdb3d5899027",
+      "expected_balance": 113317680222627839815138345227890766159428304208807209663414826173961175229064,
+      "initial_balance": 19204442211893086990076647298886960708313586539178603591093264850041298284911,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x75c4933653ff687c110787b7bd7fac4845b44d9cb74b54b59a52251dde59ff5",
+      "balance_match": false
+    },
+    {
+      "op_id": 54,
+      "account_address": "0x17abcbac5bb9499cec5dcc19b3f3c14501892f7980deb34a81f7a24791d7fc",
+      "expected_balance": 66787338398589746256680742062240168442639437287612470333544068313231105499285,
+      "initial_balance": 85751445467571770069385882026320198944813245981527273744952659632829775208382,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x4940be2fdfccdf97bc94737b03e54a43b47970d1b031eed1fd2a5c312666da6",
+      "balance_match": false
+    },
+    {
+      "op_id": 55,
+      "account_address": "0x43f03aae2374d3559c1cd8082b8cc62f0a13579f2975a6fbdcc2a2d3675e733",
+      "expected_balance": 16467109412941283088040108260623715340398187112864660553106888103963525796577,
+      "initial_balance": 16467109412941283088040108260623715340398187112864660553106888103963525796577,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 56,
+      "account_address": "0x42b14e849d397ddd17eb25a5a8d96077ba47f4a187549be3a5e2c506b1606",
+      "expected_balance": 4980115511414067232366904281369496409117290806157616876381177470674739004626,
+      "initial_balance": 4980115511414067232366904281369496409117290806157616876381177470674739004626,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x565d36f4b812e0e8a0bdbb02a7135d33255954ee4f756670214173f7bb2efca",
+      "balance_match": false
+    },
+    {
+      "op_id": 57,
+      "account_address": "0x3d41615322442eecd071a6ad3ff4a8f31d4d5a776cdb7db3d2c7a1f8f7f3c71",
+      "expected_balance": 6166649753835370069344093268383743442211190373979795969935755125695605762741,
+      "initial_balance": 41356256407384163273088520089559195060537986985826189135986569357072981589718,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 58,
+      "account_address": "0x6acdfcf6ac5a36d312dbfbbfad8367a38624e1ed03374071d7c8fec6843dc59",
+      "expected_balance": 56045554606284343031519891056530926469468040080243170557597954145893356080205,
+      "initial_balance": 56045554606284343031519891056530926469468040080243170557597954145893356080205,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 59,
+      "account_address": "0x664917b008788fa6a611d700883052a39140986c49d447b69d3218c7297664a",
+      "expected_balance": 18045157934055733373108689205116937912500884044544023912915392371092925579256,
+      "initial_balance": 18045157934055733373108689205116937912500884044544023912915392371092925579256,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 60,
+      "account_address": "0x599ce0fa16961f551641e4725deace6c70de3c2ee8a63836b2d6cda580316a5",
+      "expected_balance": 98881971727817945881134559675085316217826655047735157704122925077263131725111,
+      "initial_balance": 16501461288851112733739602987428779346273662683502116860592509680668912385600,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x48020eded6f31124dbd330a03a595d5ba9cb9b50cdcf8938d23070572c2dd1e",
+      "balance_match": false
+    },
+    {
+      "op_id": 61,
+      "account_address": "0x13ff0e56ad4cd0398db3b73af97adbf6ac4bbff1fbd851d013693a7c06e5059",
+      "expected_balance": 39213837126475091335930314100849400440776624105576959716291929842033446853730,
+      "initial_balance": 103194826810802515943759736485289789825278247197295265909586154998923903963294,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 62,
+      "account_address": "0x3b87d2564a73fe7c0dc6887206fce9282dae3a1d3ec6f6dd6883da5bef6ad98",
+      "expected_balance": 53110818466063198171142748743160088291105776735239054586497891608739616297358,
+      "initial_balance": 53110818466063198171142748743160088291105776735239054586497891608739616297358,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 63,
+      "account_address": "0x212147c3c19d987be46374d4b4d3d1989d809b49928b8d9f3660b89fa41e4a8",
+      "expected_balance": 114593704603499676675721649562958477187387603771780006795197003553290756179509,
+      "initial_balance": 35173010649631775574463030986151921888773730871056202808737334497993757700874,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x77e9a9c200667f646bf2cfeaf967360f34c27f80eaca4d0e7b25233b5f28d06",
+      "balance_match": false
+    },
+    {
+      "op_id": 64,
+      "account_address": "0x2d1d1752006a09db2fe39378409474333ae05221982035cf1f669274dee1ab7",
+      "expected_balance": 34785284968187503186165310559085007365169885413796653390614410305363615352553,
+      "initial_balance": 34785284968187503186165310559085007365169885413796653390614410305363615352553,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x1f4ded817912a5e29de43904c12e62d351b979c7bbb692dcab7443915e209d4",
+      "balance_match": false
+    },
+    {
+      "op_id": 65,
+      "account_address": "0x1b31e4d33a14024ccf94395165a9757c65d2fbe4603d740f6e9b55c02086d0b",
+      "expected_balance": 106007064640855061181651527908718716493956964494153499676343429549012917139518,
+      "initial_balance": 106007064640855061181651527908718716493956964494153499676343429549012917139518,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x707a530e2675bf16905b9d026df119c08b7cc6be8db970516f2ee42fe1d5668",
+      "balance_match": false
+    },
+    {
+      "op_id": 66,
+      "account_address": "0x37599064e8a740ec808c3f1c2b9ae6a3557b8f08280dfba5020e477ef95efc2",
+      "expected_balance": 21001164293131797108783216695005231943848749056025096932858324902247106121654,
+      "initial_balance": 21001164293131797108783216695005231943848749056025096932858324902247106121654,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x1146bf6579d8276bf11bf0f0844f1def9c56f39f50710f30a0702c84edc36ca",
+      "balance_match": false
+    },
+    {
+      "op_id": 67,
+      "account_address": "0xf37634bae7a81131b332d78f2e7715cc1ec9b7de11a47b4c500bb3a256ab5c",
+      "expected_balance": 88502694997406878842756854623597240712533645156702373985160093855542647512795,
+      "initial_balance": 4937015993587416857259256189686257286879368558772128770323488132137433090691,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 68,
+      "account_address": "0x2a75f1caabc5ede95efdb975fc03afefb080e82849bc62c9a6b5b0913a20af8",
+      "expected_balance": 20782169483523688716213399077185017517481182315072917401696248837944021684328,
+      "initial_balance": 44857340985343041234480382860634267171249115876337012135616098472749806968084,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x659d8f023b25c18ddc245aac2fc2a132a475c420b4dc9edaef085c047a7d440",
+      "balance_match": false
+    },
+    {
+      "op_id": 69,
+      "account_address": "0x6ed670266eb6474a9a152beeb83fb8be47154fff73469a0d283b1a20317051b",
+      "expected_balance": 92104605593162522695969246853097750502375392348572461933787118539099589785648,
+      "initial_balance": 63829548272723157070009878317180688727733084573577680190923146855219743749347,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x3f543398a0674d72541e0a7d92ad038c3f09d078a27482c94fd2a5b8824b64c",
+      "balance_match": false
+    },
+    {
+      "op_id": 70,
+      "account_address": "0x1f4a6c2ce084eb0ea3f1460c32f97610eb7503a719c9b73d1fe5af44682d3fe",
+      "expected_balance": 92234948865793433209092714713242180736706239257336083107101248382969004945516,
+      "initial_balance": 92234948865793433209092714713242180736706239257336083107101248382969004945516,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 71,
+      "account_address": "0x26584a6c59d274032f794a0d1ebfc1b1d95a3ecf05a3c0db603d6e87778a8f4",
+      "expected_balance": 6336821835268385786977470635084476151337631166317036372624628102656651781311,
+      "initial_balance": 52709819605218235344082684284990995503689304096343260304542797178457749956246,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 72,
+      "account_address": "0x4b769193f7b40b743cfd2c8fd1082c0e8523819fa5acf04809b1afbbf124fb3",
+      "expected_balance": 95132815478186061014051058599905740353018159732672068739059932975140016102052,
+      "initial_balance": 11,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 73,
+      "account_address": "0xca572b7db9ee758fd1e6bb196d848a0f23edb2f1c508d3ebfb7ff2990413b8",
+      "expected_balance": 3514485669205564476261396584550956676603861853604189757698845804590604734516,
+      "initial_balance": 88026000715772182482680769304575167639008750294912283502978321181372132821619,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x32c0cad586936d47a8eb918db182c4697bdaf69dd7b32dd209908053b7a58ae",
+      "balance_match": false
+    },
+    {
+      "op_id": 74,
+      "account_address": "0x125eb16ab21f144b7e6b21c869e8aa3bf05642cea34162624d8f6fe55432365",
+      "expected_balance": 109602980063157073583287498758474265644007127123978558057102583741284535929735,
+      "initial_balance": 109602980063157073583287498758474265644007127123978558057102583741284535929735,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 75,
+      "account_address": "0x26a84d93bfb572200da210da9ad1c2e9529eacc9af5e8f13eb7532aaebdd406",
+      "expected_balance": 65904636004898773332555439412699846512764024862569899324489647610719872388798,
+      "initial_balance": 83855274694846686280273689862834481138761319716170116888904880032799310912834,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x58fbaab18dcae199de20e031f5f1fc78b22593ba64852e1df4f1cdbd9eccc1d",
+      "balance_match": false
+    },
+    {
+      "op_id": 76,
+      "account_address": "0x62f5b65fdf1baa50bfbd42b9c82a9c85cd9ee5f12e7bae8a328d2f78291780b",
+      "expected_balance": 16053999216278240822107580677843346522643952318105504915824028187750987103904,
+      "initial_balance": 16053999216278240822107580677843346522643952318105504915824028187750987103904,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x4d625ae8742dd6bde84c7e931f14237e3d2c394f938476ec795932de37d76e",
+      "balance_match": false
+    },
+    {
+      "op_id": 77,
+      "account_address": "0x57da07f018259be91e84136282c73b15dec5d579516344fc10fe80340607b9b",
+      "expected_balance": 94511484491880053663993280610656753680383098671227500570384614173626316016184,
+      "initial_balance": 6032718919809948816291257769868256704959379015059358345279836027957337368062,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 78,
+      "account_address": "0x192fba2074f5878ea60d3c92f31df3c7c04155b4723321baddc1d2b221764bb",
+      "expected_balance": 97553267054168810710834071418039309961279500821070694830393574155336408339116,
+      "initial_balance": 77863224755087752320404042374340503064916860549792655236500840691218358306501,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x516ae2f9fdf5815775992da4c2a654b6c6ca51d002c41d314d7c97c70e0b40f",
+      "balance_match": false
+    },
+    {
+      "op_id": 79,
+      "account_address": "0x5085bda6c066a5fbd31d51e5d3ae7c41166b5c1b72f266ee5fef5f48632a752",
+      "expected_balance": 82143141984993514271293116174572740388346420807239519881364880648606878782500,
+      "initial_balance": 78340960547928583644714230250269875016170659185794100638301469747549342927666,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x6a21782e541ed451ec7fea631f487369a3e25c28e1762e0fdee6f45e4326bc9",
+      "balance_match": false
+    },
+    {
+      "op_id": 80,
+      "account_address": "0x48b440109e35f0039530b622be3832bf03ea9d569141f135b3b64ad28a29faa",
+      "expected_balance": 113140975845025887253223090970921197288339072725706502252274956526954780369502,
+      "initial_balance": 15936236421732883018476511797229167451976550929709599833503397432469920047742,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 81,
+      "account_address": "0x6ecbd00269d7c081fbb87194e00e962dc8c218bfc60157231fb4b7b91d96246",
+      "expected_balance": 29138408531411431012148853275650260433389429648272068766445607729859909159806,
+      "initial_balance": 29138408531411431012148853275650260433389429648272068766445607729859909159806,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 82,
+      "account_address": "0x3003b3cceb58e4fb3854cd643b1db9fda0f8b7c2528336049e41a511e1178",
+      "expected_balance": 87685766749807716448478450222908642456375385933027985967214638284739403742053,
+      "initial_balance": 87685766749807716448478450222908642456375385933027985967214638284739403742053,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x5e50d712c0cf7c666e96153fc46b5366e4142227126785a63cd37cf0166d580",
+      "balance_match": false
+    },
+    {
+      "op_id": 83,
+      "account_address": "0x6e7fd87815667fe3d84a3004a7027fa946641149698633462b4489cfaeb8732",
+      "expected_balance": 99843702654877612839543673932122993718851409197327358706008331599466069495760,
+      "initial_balance": 99843702654877612839543673932122993718851409197327358706008331599466069495760,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 84,
+      "account_address": "0x314928078ca87130496f9a3e77518f466931d68e9c56c9844584c61d628e9",
+      "expected_balance": 2167360079707013809243377198090852402717323997613419255631201668133913845438,
+      "initial_balance": 2167360079707013809243377198090852402717323997613419255631201668133913845438,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 85,
+      "account_address": "0x30aa35f76de9fff2310b0378ddb113ba2ff932ec9bc707c6fd9793e31a1ec49",
+      "expected_balance": 9880452414427927121481071993701639891969205487434852535079516389984870131063,
+      "initial_balance": 9880452414427927121481071993701639891969205487434852535079516389984870131063,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 86,
+      "account_address": "0xe0e1e89c2f82b19dcb3002515c5475c587c00a4e008fb4559b1f9b6badf256",
+      "expected_balance": 89663080144991695260221396421814931287118556645209939514445994659406269821207,
+      "initial_balance": 89663080144991695260221396421814931287118556645209939514445994659406269821207,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x6c9445c1f7e31449ab7d9d25738a342ea5945094315e7956c1d9266e98705ff",
+      "balance_match": false
+    },
+    {
+      "op_id": 87,
+      "account_address": "0x744089cde7c37cad03514d8141d37c8f9f52acd5ea98a1e15710ca9e4baf90f",
+      "expected_balance": 2124080661107514973236352486760027338221500407253369832121892552263086670273,
+      "initial_balance": 5117399166235267729411544793030547818397490968395550822280178507093361272692,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 88,
+      "account_address": "0x37fb3a11ba173136c38c584dd5c11cf250c1492a968f066985f87fb780d9819",
+      "expected_balance": 21732293667805909151169944615250991920413200097928066194709430620589527582445,
+      "initial_balance": 21732293667805909151169944615250991920413200097928066194709430620589527582445,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 89,
+      "account_address": "0x413ee0e2969721247117bdb402db99b6ebc528281f093548bc2d4772c23d",
+      "expected_balance": 9198246814943807021289507032702975432987088057221103465086807961240003650024,
+      "initial_balance": 109928285192733699020565184462832378982944671172254960122007135762967407376947,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x7a7047c42a213f16e4263f78d5ff4c271a233f469bf093b5e0d7fc6cce3a14d",
+      "balance_match": false
+    },
+    {
+      "op_id": 90,
+      "account_address": "0x6991c0640e6146306e6fdef53add7007041aed7bb4b5cbbd076e7fce3284a8b",
+      "expected_balance": 79589146331897172659558471455836879393589832088766617529384033073349865336616,
+      "initial_balance": 22760132390127336410114514993331590525084457533818321197961266305791707770713,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 91,
+      "account_address": "0x4ac39bba1fd6f54cee82c71f20f20932064341e7ab81a98003cf94dcf5069ae",
+      "expected_balance": 49742687529726734117938047535350950772941101902056416007484019042528562635943,
+      "initial_balance": 49742687529726734117938047535350950772941101902056416007484019042528562635943,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 92,
+      "account_address": "0x64800aa4ec3165f939e1c4bf6f3e4398543fc71bf61f13cc27e461cf608ec07",
+      "expected_balance": 13791012922218526585895617936451907579327720247768763585838352655563937004839,
+      "initial_balance": 82336142846552906955224285228038878265374905320830865208448734156077257386013,
+      "final_balance": null,
+      "write_success": true,
+      "write_tx_hash": "0x3b377edfbf0fe10e5824c0b597f7de52f8ec6be3a20c4feed22a213332bc72e",
+      "balance_match": false
+    },
+    {
+      "op_id": 93,
+      "account_address": "0x3f4469f20ad38ee75cf328e895e3ab7a7d5aeb8bc340f9eb244034a8c1712c1",
+      "expected_balance": 92230421428286638980614708073897286185207848566838238247833012569297040312134,
+      "initial_balance": 92230421428286638980614708073897286185207848566838238247833012569297040312134,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 94,
+      "account_address": "0x34ce857c4df544d63f280bcd8d00ec904aabe82e5f5bce29a770c27a9952d71",
+      "expected_balance": 103412783664725437964379741948805053431443343293233443711585720744629930954031,
+      "initial_balance": 48439718535927036131298322539145606852779155820888463226833584315366660129486,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 95,
+      "account_address": "0x2bba45787542db4891dae0901b821a4af190863c4e0a6a3a984226f16333874",
+      "expected_balance": 86722195569868417988571702607620174227237236995780391459226309481554267228401,
+      "initial_balance": 28070771749504710965814579846452032663930875675624200832173814050279105738120,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 96,
+      "account_address": "0x4c89155f5be07995149627aa95f64be8cf062e6add3ba31df33a084fb21dc83",
+      "expected_balance": 20802163475939902779329610213734952525311035737821706334473128100444665564415,
+      "initial_balance": 35460953173162370418664487179987871919097643998607439052848425350000147954833,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 97,
+      "account_address": "0x349d53b8dd4391d9a07de5a3ac14afc2a1339fb76ed6925e924cd36041a8d0",
+      "expected_balance": 39588772094961399140335135133647903889672745118494789650763944914584925434477,
+      "initial_balance": 14360529113866929805675529384140808355720980433304066731835652467243657946174,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 98,
+      "account_address": "0x2827ddf455ebfd65c5b57eca95ed63496f0258c6161d1414cd7ac4d2a3c13e0",
+      "expected_balance": 77983613435670702031717926124570268304381155048152936994882076161630844037011,
+      "initial_balance": 54972987510779166729463979836287597521654103421729779312062125478485556782378,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 99,
+      "account_address": "0x558329e7e6ef2aa37ae54f3a6494c1aa979ad2dd8b80381ca7e742d90fec4eb",
+      "expected_balance": 87846224575329330609061118753568359088102195921637588106121050382215380266865,
+      "initial_balance": 0,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    }
+  ]
+}

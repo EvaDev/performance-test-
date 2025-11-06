@@ -1,0 +1,720 @@
+{
+  "total_operations": 100,
+  "total_ops_executed": 50,
+  "sepolia_ops": 0.5281567096065062,
+  "total_ops": 0.16177263033578498,
+  "total_duration": 309.0757682323456,
+  "sepolia_duration": 94.66887211799622,
+  "send_duration": 86.34715104103088,
+  "accept_duration": 8.321721076965332,
+  "sign_duration": 1.0120410919189453,
+  "prep_duration": 212.56949710845947,
+  "parallel_ops": 5,
+  "num_accounts": 50,
+  "successful": 50,
+  "failed": 50,
+  "avg_tx_duration": 0.8634715104103086,
+  "contract_address": "0x063ab038c9d25515aa8e873febae8eb5b1d4be5fba1a217958064fac441b619e",
+  "results": [
+    {
+      "tx_hash": "0x405d6e104ab054970ddb9f5c83f5cbe09d4c5893de1dc15bc9d7d5d9f49800b",
+      "duration": 0.8634715104103088,
+      "op_id": 0,
+      "success": true,
+      "account": "0x5da803365f33a4b9b03cd10ccffe248fee73f9e43736de80f5b0848c1bde03e"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 55,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x05da803365f33a4b9b03cd10ccffe248fee73f9e43736de80f5b0848c1bde03e, nonce: Nonce(0x58)"
+    },
+    {
+      "tx_hash": "0x6a561b5e40aa92f50a8ab67b71177744844e9d5d041270b9cf6462e4fc266ea",
+      "duration": 0.8634715104103088,
+      "op_id": 50,
+      "success": true,
+      "account": "0x8681d1018378cd6817705b2685381564751d41cfb4585d013bfdb3d5899027"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 9,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x008681d1018378cd6817705b2685381564751d41cfb4585d013bfdb3d5899027, nonce: Nonce(0x53)"
+    },
+    {
+      "tx_hash": "0x7012f2eb11f5538958ca08dd562ec40d5100d315b28ed6338a3fe1fe5812612",
+      "duration": 0.8634715104103088,
+      "op_id": 1,
+      "success": true,
+      "account": "0x599ce0fa16961f551641e4725deace6c70de3c2ee8a63836b2d6cda580316a5"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 3,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x0599ce0fa16961f551641e4725deace6c70de3c2ee8a63836b2d6cda580316a5, nonce: Nonce(0x41)"
+    },
+    {
+      "tx_hash": "0x6ecdcb0a9e3d9e1accec4de1140d7fbfe465c114ce2b91447c6acd778136fb6",
+      "duration": 0.8634715104103088,
+      "op_id": 51,
+      "success": true,
+      "account": "0x43f03aae2374d3559c1cd8082b8cc62f0a13579f2975a6fbdcc2a2d3675e733"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 61,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x043f03aae2374d3559c1cd8082b8cc62f0a13579f2975a6fbdcc2a2d3675e733, nonce: Nonce(0x50)"
+    },
+    {
+      "tx_hash": "0x37ac61a0739ff3361a728739b033767ceab48355f404a0931a8c0685545af0",
+      "duration": 0.8634715104103088,
+      "op_id": 2,
+      "success": true,
+      "account": "0x17abcbac5bb9499cec5dcc19b3f3c14501892f7980deb34a81f7a24791d7fc"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 58,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x0017abcbac5bb9499cec5dcc19b3f3c14501892f7980deb34a81f7a24791d7fc, nonce: Nonce(0x57)"
+    },
+    {
+      "tx_hash": "0x6cadb7510762b1ee308340edf32425a8f925126d87c6644789d259ac3ebea9b",
+      "duration": 0.8634715104103088,
+      "op_id": 52,
+      "success": true,
+      "account": "0x13ff0e56ad4cd0398db3b73af97adbf6ac4bbff1fbd851d013693a7c06e5059"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 17,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x013ff0e56ad4cd0398db3b73af97adbf6ac4bbff1fbd851d013693a7c06e5059, nonce: Nonce(0x42)"
+    },
+    {
+      "tx_hash": "0x75c4933653ff687c110787b7bd7fac4845b44d9cb74b54b59a52251dde59ff5",
+      "duration": 0.8634715104103088,
+      "op_id": 53,
+      "success": true,
+      "account": "0x20f25eb8d0b01b6ddc053d026b40788a2054a08a701421ce6206e713d4eb651"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 4,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 89, got: 88."
+    },
+    {
+      "tx_hash": "0x4940be2fdfccdf97bc94737b03e54a43b47970d1b031eed1fd2a5c312666da6",
+      "duration": 0.8634715104103088,
+      "op_id": 54,
+      "success": true,
+      "account": "0x7d101d7e45f0bda48db725965be0b23db4cd4f78db2304bbe9d011f5128736c"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 57,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 109, got: 108."
+    },
+    {
+      "tx_hash": "0x4e73c34fffcab199d5c955a72e4ebc405249532429ab19ef4d9223fca86646c",
+      "duration": 0.8634715104103088,
+      "op_id": 5,
+      "success": true,
+      "account": "0x3d41615322442eecd071a6ad3ff4a8f31d4d5a776cdb7db3d2c7a1f8f7f3c71"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 72,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 82, got: 81."
+    },
+    {
+      "tx_hash": "0x5f55567b6888e42845a0dc8980c682e93156a20da0cc8ad63b389add722f218",
+      "duration": 0.8634715104103088,
+      "op_id": 6,
+      "success": true,
+      "account": "0x42b14e849d397ddd17eb25a5a8d96077ba47f4a187549be3a5e2c506b1606"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 59,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 80, got: 79."
+    },
+    {
+      "tx_hash": "0x565d36f4b812e0e8a0bdbb02a7135d33255954ee4f756670214173f7bb2efca",
+      "duration": 0.8634715104103088,
+      "op_id": 56,
+      "success": true,
+      "account": "0x6ed670266eb6474a9a152beeb83fb8be47154fff73469a0d283b1a20317051b"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 22,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 65, got: 64."
+    },
+    {
+      "tx_hash": "0x4b6208ab23787e49f66924acd82500c57e08d1bce86814bd69e06de99321c0",
+      "duration": 0.8634715104103088,
+      "op_id": 7,
+      "success": true,
+      "account": "0x664917b008788fa6a611d700883052a39140986c49d447b69d3218c7297664a"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 62,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x0664917b008788fa6a611d700883052a39140986c49d447b69d3218c7297664a, nonce: Nonce(0x48)"
+    },
+    {
+      "tx_hash": "0x23a5faf5ce67702823d8f1a26196ff03f7c568895ea20784c043444ac781002",
+      "duration": 0.8634715104103088,
+      "op_id": 8,
+      "success": true,
+      "account": "0x2a75f1caabc5ede95efdb975fc03afefb080e82849bc62c9a6b5b0913a20af8"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 14,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x02a75f1caabc5ede95efdb975fc03afefb080e82849bc62c9a6b5b0913a20af8, nonce: Nonce(0x42)"
+    },
+    {
+      "tx_hash": "0x442b04d8c3584312dbcb56a7173df114c709164d97bdb7eabd8c04db4b53542",
+      "duration": 0.8634715104103088,
+      "op_id": 10,
+      "success": true,
+      "account": "0x212147c3c19d987be46374d4b4d3d1989d809b49928b8d9f3660b89fa41e4a8"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 81,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x0212147c3c19d987be46374d4b4d3d1989d809b49928b8d9f3660b89fa41e4a8, nonce: Nonce(0x40)"
+    },
+    {
+      "tx_hash": "0x48020eded6f31124dbd330a03a595d5ba9cb9b50cdcf8938d23070572c2dd1e",
+      "duration": 0.8634715104103088,
+      "op_id": 60,
+      "success": true,
+      "account": "0xf37634bae7a81131b332d78f2e7715cc1ec9b7de11a47b4c500bb3a256ab5c"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 20,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x00f37634bae7a81131b332d78f2e7715cc1ec9b7de11a47b4c500bb3a256ab5c, nonce: Nonce(0x42)"
+    },
+    {
+      "tx_hash": "0x48160e66091a86a3aecd1284b94763fbac01dac064701b54d54cb4060f759b7",
+      "duration": 0.8634715104103088,
+      "op_id": 11,
+      "success": true,
+      "account": "0x6acdfcf6ac5a36d312dbfbbfad8367a38624e1ed03374071d7c8fec6843dc59"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 15,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x06acdfcf6ac5a36d312dbfbbfad8367a38624e1ed03374071d7c8fec6843dc59, nonce: Nonce(0x51)"
+    },
+    {
+      "tx_hash": "0x6d2a686315afb207bf5eafd0b8791c42de39de1bcece0cf27fd4715f073caeb",
+      "duration": 0.8634715104103088,
+      "op_id": 12,
+      "success": true,
+      "account": "0x192fba2074f5878ea60d3c92f31df3c7c04155b4723321baddc1d2b221764bb"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 85,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x0192fba2074f5878ea60d3c92f31df3c7c04155b4723321baddc1d2b221764bb, nonce: Nonce(0x33)"
+    },
+    {
+      "tx_hash": "0x4f743b50be3e35e5193ff352a9b9bb1e052a4e59de753e809284f0be1c7d9d7",
+      "duration": 0.8634715104103088,
+      "op_id": 13,
+      "success": true,
+      "account": "0x125eb16ab21f144b7e6b21c869e8aa3bf05642cea34162624d8f6fe55432365"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 67,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x0125eb16ab21f144b7e6b21c869e8aa3bf05642cea34162624d8f6fe55432365, nonce: Nonce(0x33)"
+    },
+    {
+      "tx_hash": "0x77e9a9c200667f646bf2cfeaf967360f34c27f80eaca4d0e7b25233b5f28d06",
+      "duration": 0.8634715104103088,
+      "op_id": 63,
+      "success": true,
+      "account": "0x314928078ca87130496f9a3e77518f466931d68e9c56c9844584c61d628e9"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 83,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x000314928078ca87130496f9a3e77518f466931d68e9c56c9844584c61d628e9, nonce: Nonce(0x2d)"
+    },
+    {
+      "tx_hash": "0x1f4ded817912a5e29de43904c12e62d351b979c7bbb692dcab7443915e209d4",
+      "duration": 0.8634715104103088,
+      "op_id": 64,
+      "success": true,
+      "account": "0x37599064e8a740ec808c3f1c2b9ae6a3557b8f08280dfba5020e477ef95efc2"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 16,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x037599064e8a740ec808c3f1c2b9ae6a3557b8f08280dfba5020e477ef95efc2, nonce: Nonce(0x43)"
+    },
+    {
+      "tx_hash": "0x707a530e2675bf16905b9d026df119c08b7cc6be8db970516f2ee42fe1d5668",
+      "duration": 0.8634715104103088,
+      "op_id": 65,
+      "success": true,
+      "account": "0x1b31e4d33a14024ccf94395165a9757c65d2fbe4603d740f6e9b55c02086d0b"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 21,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 67, got: 66."
+    },
+    {
+      "tx_hash": "0x1146bf6579d8276bf11bf0f0844f1def9c56f39f50710f30a0702c84edc36ca",
+      "duration": 0.8634715104103088,
+      "op_id": 66,
+      "success": true,
+      "account": "0x1f4a6c2ce084eb0ea3f1460c32f97610eb7503a719c9b73d1fe5af44682d3fe"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 71,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 54, got: 53."
+    },
+    {
+      "tx_hash": "0x2fe0254796aa5d63999d59dfdb13dd3b210dbaca3cfb4bc2de3e89a60290d3d",
+      "duration": 0.8634715104103088,
+      "op_id": 18,
+      "success": true,
+      "account": "0x26a84d93bfb572200da210da9ad1c2e9529eacc9af5e8f13eb7532aaebdd406"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 26,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 59, got: 58."
+    },
+    {
+      "tx_hash": "0x659d8f023b25c18ddc245aac2fc2a132a475c420b4dc9edaef085c047a7d440",
+      "duration": 0.8634715104103088,
+      "op_id": 68,
+      "success": true,
+      "account": "0x3003b3cceb58e4fb3854cd643b1db9fda0f8b7c2528336049e41a511e1178"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 77,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 51, got: 50."
+    },
+    {
+      "tx_hash": "0x5d1cf464636e80c6a2acd0ee9bd5a148f17e7cd5fe8c71c5c6d8fe87bd27715",
+      "duration": 0.8634715104103088,
+      "op_id": 19,
+      "success": true,
+      "account": "0x2d1d1752006a09db2fe39378409474333ae05221982035cf1f669274dee1ab7"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 70,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 70, got: 69."
+    },
+    {
+      "tx_hash": "0x3f543398a0674d72541e0a7d92ad038c3f09d078a27482c94fd2a5b8824b64c",
+      "duration": 0.8634715104103088,
+      "op_id": 69,
+      "success": true,
+      "account": "0x3b87d2564a73fe7c0dc6887206fce9282dae3a1d3ec6f6dd6883da5bef6ad98"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 80,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x03b87d2564a73fe7c0dc6887206fce9282dae3a1d3ec6f6dd6883da5bef6ad98, nonce: Nonce(0x40)"
+    },
+    {
+      "tx_hash": "0x2ffe4e935ca95165b7ff148f87725f8776cc366521ae967343875beaf97e039",
+      "duration": 0.8634715104103088,
+      "op_id": 23,
+      "success": true,
+      "account": "0x26584a6c59d274032f794a0d1ebfc1b1d95a3ecf05a3c0db603d6e87778a8f4"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 91,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x026584a6c59d274032f794a0d1ebfc1b1d95a3ecf05a3c0db603d6e87778a8f4, nonce: Nonce(0x34)"
+    },
+    {
+      "tx_hash": "0x32c0cad586936d47a8eb918db182c4697bdaf69dd7b32dd209908053b7a58ae",
+      "duration": 0.8634715104103088,
+      "op_id": 73,
+      "success": true,
+      "account": "0x57da07f018259be91e84136282c73b15dec5d579516344fc10fe80340607b9b"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 90,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x057da07f018259be91e84136282c73b15dec5d579516344fc10fe80340607b9b, nonce: Nonce(0x34)"
+    },
+    {
+      "tx_hash": "0x3b9e5a14e4cff2c6aab86a633b9cc60cc4158a921b90478578a9739be2012e5",
+      "duration": 0.8634715104103088,
+      "op_id": 24,
+      "success": true,
+      "account": "0xe0e1e89c2f82b19dcb3002515c5475c587c00a4e008fb4559b1f9b6badf256"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 74,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x00e0e1e89c2f82b19dcb3002515c5475c587c00a4e008fb4559b1f9b6badf256, nonce: Nonce(0x30)"
+    },
+    {
+      "tx_hash": "0x3c5a201408cd37923eff3ce3fa876b60fd706410ad1673fb40f1b08f72739b3",
+      "duration": 0.8634715104103088,
+      "op_id": 25,
+      "success": true,
+      "account": "0x4ac39bba1fd6f54cee82c71f20f20932064341e7ab81a98003cf94dcf5069ae"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 96,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 47, got: 46."
+    },
+    {
+      "tx_hash": "0x58fbaab18dcae199de20e031f5f1fc78b22593ba64852e1df4f1cdbd9eccc1d",
+      "duration": 0.8634715104103088,
+      "op_id": 75,
+      "success": true,
+      "account": "0x30aa35f76de9fff2310b0378ddb113ba2ff932ec9bc707c6fd9793e31a1ec49"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 36,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x030aa35f76de9fff2310b0378ddb113ba2ff932ec9bc707c6fd9793e31a1ec49, nonce: Nonce(0x2d)"
+    },
+    {
+      "tx_hash": "0x4d625ae8742dd6bde84c7e931f14237e3d2c394f938476ec795932de37d76e",
+      "duration": 0.8634715104103088,
+      "op_id": 76,
+      "success": true,
+      "account": "0x349d53b8dd4391d9a07de5a3ac14afc2a1339fb76ed6925e924cd36041a8d0"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 84,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x00349d53b8dd4391d9a07de5a3ac14afc2a1339fb76ed6925e924cd36041a8d0, nonce: Nonce(0x31)"
+    },
+    {
+      "tx_hash": "0x71da3d9b399883888b027c52b974e8218a5ea45acb0c16e95d90effe8e85737",
+      "duration": 0.8634715104103088,
+      "op_id": 27,
+      "success": true,
+      "account": "0x64800aa4ec3165f939e1c4bf6f3e4398543fc71bf61f13cc27e461cf608ec07"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 32,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x064800aa4ec3165f939e1c4bf6f3e4398543fc71bf61f13cc27e461cf608ec07, nonce: Nonce(0x30)"
+    },
+    {
+      "tx_hash": "0xb33d252b2873dcb66426ba854e9f3cbaa85ecebb4110f8fafd4c9c8c0ce971",
+      "duration": 0.8634715104103088,
+      "op_id": 28,
+      "success": true,
+      "account": "0x2827ddf455ebfd65c5b57eca95ed63496f0258c6161d1414cd7ac4d2a3c13e0"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 49,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x02827ddf455ebfd65c5b57eca95ed63496f0258c6161d1414cd7ac4d2a3c13e0, nonce: Nonce(0x2b)"
+    },
+    {
+      "tx_hash": "0x516ae2f9fdf5815775992da4c2a654b6c6ca51d002c41d314d7c97c70e0b40f",
+      "duration": 0.8634715104103088,
+      "op_id": 78,
+      "success": true,
+      "account": "0x34ce857c4df544d63f280bcd8d00ec904aabe82e5f5bce29a770c27a9952d71"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 97,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 43, got: 42."
+    },
+    {
+      "tx_hash": "0x276bdde4b483fab18896312c55ef13904bdfbd723d66a5a9586804a091a0a1a",
+      "duration": 0.8634715104103088,
+      "op_id": 29,
+      "success": true,
+      "account": "0x6991c0640e6146306e6fdef53add7007041aed7bb4b5cbbd076e7fce3284a8b"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 94,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 49, got: 48."
+    },
+    {
+      "tx_hash": "0x6a21782e541ed451ec7fea631f487369a3e25c28e1762e0fdee6f45e4326bc9",
+      "duration": 0.8634715104103088,
+      "op_id": 79,
+      "success": true,
+      "account": "0xca572b7db9ee758fd1e6bb196d848a0f23edb2f1c508d3ebfb7ff2990413b8"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 33,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 60, got: 59."
+    },
+    {
+      "tx_hash": "0x72fc59de55eb874f55ec423e8d6d00d9cedcabd7e35283263963820532b71b7",
+      "duration": 0.8634715104103088,
+      "op_id": 30,
+      "success": true,
+      "account": "0x62f5b65fdf1baa50bfbd42b9c82a9c85cd9ee5f12e7bae8a328d2f78291780b"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 41,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 53, got: 52."
+    },
+    {
+      "tx_hash": "0x2caf36c72f17c988f52db161cf044bb63836b419467af58616521317384b175",
+      "duration": 0.8634715104103088,
+      "op_id": 31,
+      "success": true,
+      "account": "0x4c89155f5be07995149627aa95f64be8cf062e6add3ba31df33a084fb21dc83"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 47,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 44, got: 43."
+    },
+    {
+      "tx_hash": "0x5e50d712c0cf7c666e96153fc46b5366e4142227126785a63cd37cf0166d580",
+      "duration": 0.8634715104103088,
+      "op_id": 82,
+      "success": true,
+      "account": "0x413ee0e2969721247117bdb402db99b6ebc528281f093548bc2d4772c23d"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 98,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x0000413ee0e2969721247117bdb402db99b6ebc528281f093548bc2d4772c23d, nonce: Nonce(0x31)"
+    },
+    {
+      "tx_hash": "0x46ab491de537d2ea3866f0813e3d80a9de9f115860349df7498181243855121",
+      "duration": 0.8634715104103088,
+      "op_id": 34,
+      "success": true,
+      "account": "0x744089cde7c37cad03514d8141d37c8f9f52acd5ea98a1e15710ca9e4baf90f"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 88,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x0744089cde7c37cad03514d8141d37c8f9f52acd5ea98a1e15710ca9e4baf90f, nonce: Nonce(0x2f)"
+    },
+    {
+      "tx_hash": "0x62aaa489750706cf1daac2b0cbda859034011f5f1080541076a23808cb91a0",
+      "duration": 0.8634715104103088,
+      "op_id": 35,
+      "success": true,
+      "account": "0x48b440109e35f0039530b622be3832bf03ea9d569141f135b3b64ad28a29faa"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 38,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x048b440109e35f0039530b622be3832bf03ea9d569141f135b3b64ad28a29faa, nonce: Nonce(0x33)"
+    },
+    {
+      "tx_hash": "0x6c9445c1f7e31449ab7d9d25738a342ea5945094315e7956c1d9266e98705ff",
+      "duration": 0.8634715104103088,
+      "op_id": 86,
+      "success": true,
+      "account": "0x2bba45787542db4891dae0901b821a4af190863c4e0a6a3a984226f16333874"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 43,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x02bba45787542db4891dae0901b821a4af190863c4e0a6a3a984226f16333874, nonce: Nonce(0x2c)"
+    },
+    {
+      "tx_hash": "0x786cb274012babe25fc833a090c60af248ad691411ec823ec9fe4b7a39c2382",
+      "duration": 0.8634715104103088,
+      "op_id": 37,
+      "success": true,
+      "account": "0x6ecbd00269d7c081fbb87194e00e962dc8c218bfc60157231fb4b7b91d96246"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 87,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 51, got: 50."
+    },
+    {
+      "tx_hash": "0x4a64ba5df41582f640fab72948eaa52ce0d026e73daefcc47ff6c3bea6a42fd",
+      "duration": 0.8634715104103088,
+      "op_id": 39,
+      "success": true,
+      "account": "0x5085bda6c066a5fbd31d51e5d3ae7c41166b5c1b72f266ee5fef5f48632a752"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 44,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x05085bda6c066a5fbd31d51e5d3ae7c41166b5c1b72f266ee5fef5f48632a752, nonce: Nonce(0x33)"
+    },
+    {
+      "tx_hash": "0x7a7047c42a213f16e4263f78d5ff4c271a233f469bf093b5e0d7fc6cce3a14d",
+      "duration": 0.8634715104103088,
+      "op_id": 89,
+      "success": true,
+      "account": "0x6e7fd87815667fe3d84a3004a7027fa946641149698633462b4489cfaeb8732"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 93,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x06e7fd87815667fe3d84a3004a7027fa946641149698633462b4489cfaeb8732, nonce: Nonce(0x2e)"
+    },
+    {
+      "tx_hash": "0x1c9451e3c4c5823d47a0682700f8acd15270718a2f92e7c52b9658cd308eeca",
+      "duration": 0.8634715104103088,
+      "op_id": 40,
+      "success": true,
+      "account": "0x37fb3a11ba173136c38c584dd5c11cf250c1492a968f066985f87fb780d9819"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 46,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x037fb3a11ba173136c38c584dd5c11cf250c1492a968f066985f87fb780d9819, nonce: Nonce(0x31)"
+    },
+    {
+      "tx_hash": "0x58813cd6877e5ca86feaa0e32e8e3d38e47b2af1e999c4d2ab19f278fabf06b",
+      "duration": 0.8634715104103088,
+      "op_id": 42,
+      "success": true,
+      "account": "0x3f4469f20ad38ee75cf328e895e3ab7a7d5aeb8bc340f9eb244034a8c1712c1"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 95,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Duplicate nonce, sender address: 0x03f4469f20ad38ee75cf328e895e3ab7a7d5aeb8bc340f9eb244034a8c1712c1, nonce: Nonce(0x2c)"
+    },
+    {
+      "tx_hash": "0x3b377edfbf0fe10e5824c0b597f7de52f8ec6be3a20c4feed22a213332bc72e",
+      "duration": 0.8634715104103088,
+      "op_id": 92,
+      "success": true,
+      "account": "0x4b769193f7b40b743cfd2c8fd1082c0e8523819fa5acf04809b1afbbf124fb3"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 48,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 61, got: 60."
+    },
+    {
+      "tx_hash": "0x449ed87e5ca1c861d2aed378ec1a66f28e30906cc83ec0573615067114967b0",
+      "duration": 0.8634715104103088,
+      "op_id": 45,
+      "success": true,
+      "account": "0x558329e7e6ef2aa37ae54f3a6494c1aa979ad2dd8b80381ca7e742d90fec4eb"
+    },
+    {
+      "tx_hash": null,
+      "duration": 0.8634715104103088,
+      "op_id": 99,
+      "success": false,
+      "error": "Client failed with code 52. Message: Invalid transaction nonce. Data: Invalid transaction nonce. Expected: 44, got: 43."
+    }
+  ]
+}

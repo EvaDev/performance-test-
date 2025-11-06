@@ -1,0 +1,37 @@
+{
+  "timestamp": "20251105_141234",
+  "total_operations": 3,
+  "contract_address": "0x063ab038c9d25515aa8e873febae8eb5b1d4be5fba1a217958064fac441b619e",
+  "results": [
+    {
+      "op_id": 0,
+      "account_address": "0x7d101d7e45f0bda48db725965be0b23db4cd4f78db2304bbe9d011f5128736c",
+      "expected_balance": 1,
+      "initial_balance": 1,
+      "final_balance": 1,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": true
+    },
+    {
+      "op_id": 1,
+      "account_address": "0x7d101d7e45f0bda48db725965be0b23db4cd4f78db2304bbe9d011f5128736c",
+      "expected_balance": 2,
+      "initial_balance": 1,
+      "final_balance": 1,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 2,
+      "account_address": "0x7d101d7e45f0bda48db725965be0b23db4cd4f78db2304bbe9d011f5128736c",
+      "expected_balance": 3,
+      "initial_balance": 1,
+      "final_balance": 1,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "timestamp": "20251106_055236",
+  "total_operations": 10,
+  "contract_address": "0x063ab038c9d25515aa8e873febae8eb5b1d4be5fba1a217958064fac441b619e",
+  "results": [
+    {
+      "op_id": 0,
+      "account_address": "0x7d101d7e45f0bda48db725965be0b23db4cd4f78db2304bbe9d011f5128736c",
+      "expected_balance": 43071048988127458395975716991876880829436998362757169178428377717658647792121,
+      "initial_balance": null,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 1,
+      "account_address": "0x20f25eb8d0b01b6ddc053d026b40788a2054a08a701421ce6206e713d4eb651",
+      "expected_balance": 72861096828232389131964633824630070419734262438015064179238748035674433792946,
+      "initial_balance": null,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 2,
+      "account_address": "0x5da803365f33a4b9b03cd10ccffe248fee73f9e43736de80f5b0848c1bde03e",
+      "expected_balance": 25921351352668759819020487008997314797405728454245453555321985065319436561980,
+      "initial_balance": null,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 3,
+      "account_address": "0x8681d1018378cd6817705b2685381564751d41cfb4585d013bfdb3d5899027",
+      "expected_balance": 19204442211893086990076647298886960708313586539178603591093264850041298284911,
+      "initial_balance": null,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 4,
+      "account_address": "0x17abcbac5bb9499cec5dcc19b3f3c14501892f7980deb34a81f7a24791d7fc",
+      "expected_balance": 85751445467571770069385882026320198944813245981527273744952659632829775208382,
+      "initial_balance": 85751445467571770069385882026320198944813245981527273744952659632829775208382,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 5,
+      "account_address": "0x7d101d7e45f0bda48db725965be0b23db4cd4f78db2304bbe9d011f5128736c",
+      "expected_balance": 113851010115416512295738315335017341961427992017740376000077776468620302850985,
+      "initial_balance": null,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 6,
+      "account_address": "0x20f25eb8d0b01b6ddc053d026b40788a2054a08a701421ce6206e713d4eb651",
+      "expected_balance": 99820199983755871358204000270660494606785240393977901374951777673382637442279,
+      "initial_balance": 72861096828232389131964633824630070419734262438015064179238748035674433792946,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 7,
+      "account_address": "0x5da803365f33a4b9b03cd10ccffe248fee73f9e43736de80f5b0848c1bde03e",
+      "expected_balance": 41356256407384163273088520089559195060537986985826189135986569357072981589718,
+      "initial_balance": 25921351352668759819020487008997314797405728454245453555321985065319436561980,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 8,
+      "account_address": "0x8681d1018378cd6817705b2685381564751d41cfb4585d013bfdb3d5899027",
+      "expected_balance": 10003986904950538761173939824858408749503261850798216631365112498407873494207,
+      "initial_balance": null,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    },
+    {
+      "op_id": 9,
+      "account_address": "0x17abcbac5bb9499cec5dcc19b3f3c14501892f7980deb34a81f7a24791d7fc",
+      "expected_balance": 35433387562845882811286530126250994358333961466321024546934242245074332327222,
+      "initial_balance": 85751445467571770069385882026320198944813245981527273744952659632829775208382,
+      "final_balance": null,
+      "write_success": false,
+      "write_tx_hash": null,
+      "balance_match": false
+    }
+  ]
+}

@@ -5,17 +5,31 @@ password = bbb
 Pub=0x57673063997d05d95f8c6e67950730f05b1f59875cb4c89581825a943016d7e
 Pvt=0x04eb9093c6bc934e99dbdf1f2258e7d101da3c8503ef38e55f40964e15b155a8
 
-#ACTOR
+Katana accounts
+starkli class-hash-at 0x54b9b1b06e7110f1ef0b0c3467610438311da4680d3c75d557b52788591741 --rpc http://localhost:5050
+
+#PT
 starkli declare \
   target/dev/performancetest_performanceTest.contract_class.json \
   --network=sepolia \
   --l1-gas 200000
 
+# Declare the contract
+sncast --profile katana_account1 declare --contract-name performanceTest --url http://localhost:5050
+
+hash : 0x3dae15380b2149b55015b91684a5fb0747142de3303e36d867f574a22be22d6
+
+sncast --profile katana_account1 deploy \
+  --class-hash 0x3dae15380b2149b55015b91684a5fb0747142de3303e36d867f574a22be22d6 \
+  --arguments 0x54b9b1b06e7110f1ef0b0c3467610438311da4680d3c75d557b52788591741 \
+  --url http://localhost:5050
+
+-- Pass in the admin account (currently )
 starkli deploy \
-    0x0503b7bc42b7ce754c70f730cc9ed6d0846b62ae7ab9d1c87adf743cae2e9253 \
-    --account=/Users/seanevans/Documents/ssp/cairo/accounts/nft_owner-account.json \
+    0x3dae15380b2149b55015b91684a5fb0747142de3303e36d867f574a22be22d6 \
+    0x54b9b1b06e7110f1ef0b0c3467610438311da4680d3c75d557b52788591741 \
     --l1-gas 10000 \
-    --rpc=https://starknet-sepolia.public.blastapi.io/rpc/v0_8 
+    --rpc http://localhost:5050 
 
 Perf Test deployed to 0x5b15ce020157c212f79d9ad5f05aa741cbcae763b6d4acc18c6832cb204ddbd
 
@@ -26,7 +40,9 @@ starkli call 0x5b15ce020157c212f79d9ad5f05aa741cbcae763b6d4acc18c6832cb204ddbd \
 
 starkli call 0x5b15ce020157c212f79d9ad5f05aa741cbcae763b6d4acc18c6832cb204ddbd update_balance 0x7d101d7e45f0bda48db725965be0b23db4cd4f78db2304bbe9d011f5128736c 12
 
+starkli call 0x3dfa66466b92dcaecf48c3deb78fc05aec385f7e2dab05d6b4fb0d5bc22b8d9 get_all_balances --rpc http://localhost:5050 
 
+sncast --profile katana_account1 call --contract-address 0x0163d45d352d9563b810fc820cd52d1282c5f8c8e0b4d66ecc88853b3da1f34d --function get_all_balances --url http://localhost:5050
 
 jq '.abi' target/dev/performancetest_performanceTest.contract_class.json > ../pt/ABI/performancetestABI.json
 
@@ -41,6 +57,12 @@ from starknet-test-js folder run
 node performanceTest.js 1000 1 0.2
 
 node performanceTest.js 10 1 0.2 rwr 25
+
+node performanceTestMadara.js 9 1 0.2 rwr 9
+2.62
+node performanceTestMadara.js 100 1 0.2 rwr 18
+2.59
+node performanceTestMadara.js 9 1 0.2 rwr 18
 
 node performanceTest.js 1000 1 0.2 rwr 10
 

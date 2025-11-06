@@ -24,19 +24,26 @@ async def main():
     min_balance = 0.05
     low_balance_accounts = []
     
+    print(f"Checking balances for {len(accounts)} accounts...\n")
     tasks = [get_balance(acc['address']) for acc in accounts]
-    balances = await asyncio.gather(*tasks)
+    balances = await asyncio.gather(*tasks, return_exceptions=True)
     
-    for acc, bal in zip(accounts, balances):
-        if bal < min_balance:
-            low_balance_accounts.append(acc['address'])
-            print(f"Low balance: {acc['address']} ({bal:.6f} STRK)")
+    for i, (acc, bal) in enumerate(zip(accounts, balances)):
+        if isinstance(bal, Exception):
+            print(f"[{i+1}] {acc['address']}: Error - {bal}")
+        else:
+            status = "✅" if bal >= min_balance else "⚠️"
+            print(f"[{i+1}] {status} {acc['address']}: {bal:.6f} STRK")
+            if bal < min_balance:
+                low_balance_accounts.append(acc['address'])
     
+    print(f"\n{'='*60}")
     if low_balance_accounts:
+        print(f"⚠️  {len(low_balance_accounts)} accounts have low balance (< {min_balance} STRK)")
         print("\nLow balance accounts to fund manually:")
         for addr in low_balance_accounts:
-            print(addr)
+            print(f"  {addr}")
     else:
-        print("All accounts have sufficient balance.")
+        print(f"✅ All {len(accounts)} accounts have sufficient balance (>= {min_balance} STRK)")
 
 asyncio.run(main())
